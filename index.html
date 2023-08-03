@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body >
+
+
+    <button class="chatbot-toggler">
+      <i class="fa-regular fa-folder"></i>
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <div class="chatbot">
+      <header>
+        <h2>Chatbot</h2>
+        <i class="fa-solid fa-xmark"></i>
+      </header>
+
+      <ul class="chatbox">
+        <li class="chat incoming">
+          <i
+            id="material-symbols-outlined"
+            class="fa-solid fa-share-from-square"
+          ></i>
+          <p>
+            Hi there <br />
+            How can I help you today?
+          </p>
+        </li>
+        <!-- <li class="chat outgoing">
+          <p>Lorem ipsum dolor, sit amet consectetur.</p>
+        </li> -->
+      </ul>
+      <div class="chat-input">
+        <textarea placeholder="Enter a message..." required></textarea>
+        <i id="send-btn" class="fa-solid fa-caret-right"></i>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
